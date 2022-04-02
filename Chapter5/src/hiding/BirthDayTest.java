@@ -15,8 +15,9 @@ class BirthDay {
 				System.out.println("해당 일이 존재하지 않습니다.");
 			}
 		}
-		
-		this.day = day;
+		else {
+			this.day = day;
+		}
 	}
 	public int getMonth() {
 		return month;
